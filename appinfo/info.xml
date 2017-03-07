@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>timetracker</id>
+    <name>Time Tracker</name>
+    <summary>An adaptable time tracker for nextcloud</summary>
+    <description><![CDATA[TimeTracker is an app that allows you to keep track of your time.]]></description>
+    <licence>agpl</licence>
+    <author mail="nextcloud@jakobsack.de" >Jakob Sack</author>
+    <version>0.0.1</version>
+    <namespace>TimeTracker</namespace>
+    <category>office</category>
+    <dependencies>
+        <owncloud min-version="9.2"/>
+        <nextcloud min-version="11" max-version="12"/>
+    </dependencies>
+</info>
