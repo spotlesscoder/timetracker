@@ -7,7 +7,7 @@
     <description><![CDATA[TimeTracker is an app that allows you to keep track of your time.]]></description>
     <licence>agpl</licence>
     <author mail="nextcloud@jakobsack.de" >Jakob Sack</author>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <namespace>TimeTracker</namespace>
     <category>office</category>
     <dependencies>

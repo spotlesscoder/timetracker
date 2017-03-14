@@ -63,6 +63,12 @@
 				<notnull>true</notnull>
 			</field>
 			<field>
+				<name>user_id</name>
+				<type>integer</type>
+				<default></default>
+				<notnull>true</notnull>
+			</field>
+			<field>
 				<name>name</name>
 				<type>text</type>
 				<length>200</length>
@@ -102,15 +108,15 @@
 				<notnull>true</notnull>
 			</field>
 			<field>
-				<name>description</name>
-				<type>text</type>
-				<length>20000</length>
+				<name>user_id</name>
+				<type>integer</type>
 				<default></default>
 				<notnull>true</notnull>
 			</field>
 			<field>
-				<name>lightness</name>
-				<type>integer</type>
+				<name>description</name>
+				<type>text</type>
+				<length>20000</length>
 				<default></default>
 				<notnull>true</notnull>
 			</field>

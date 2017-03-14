@@ -8,8 +8,11 @@
  * it's instantiated in there
  */
 return [
-    'routes' => [
-	   ['name' => 'page#index', 'url' => '/', 'verb' => 'GET'],
-	   ['name' => 'page#do_echo', 'url' => '/echo', 'verb' => 'POST'],
-    ]
+	'resources' => [
+		'project' => ['url' => '/projects']
+	],
+	'routes' => [
+		['name' => 'page#index', 'url' => '/', 'verb' => 'GET'],
+		['name' => 'page#do_echo', 'url' => '/echo', 'verb' => 'POST'],
+	]
 ];
